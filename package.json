@@ -1,0 +1,25 @@
+{
+  "name": "amazon-product-image-download",
+  "version": "1.0.0",
+  "description": "Scraping Amazon product image downloads from arrays of the product details page with your desire images name.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aotr/amazon-product-image-download.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aotr/amazon-product-image-download/issues"
+  },
+  "homepage": "https://github.com/aotr/amazon-product-image-download#readme",
+  "dependencies": {
+    "https": "^1.0.0",
+    "puppeteer": "^4.0.1",
+    "puppeteer-cluster": "^0.21.0"
+  }
+}
